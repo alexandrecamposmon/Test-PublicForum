@@ -17,7 +17,7 @@ namespace PublicForum.Infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "5.0.14")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("ChallengeTopic.ApplicationCore.Models.Topic", b =>
+            modelBuilder.Entity("PublicForum.ApplicationCore.Models.Topic", b =>
             {
                 b.Property<int>("Id")
                     .ValueGeneratedOnAdd()
@@ -41,7 +41,7 @@ namespace PublicForum.Infrastructure.Migrations
                 b.ToTable("Topic");
             });
 
-            modelBuilder.Entity("ChallengeTopic.ApplicationCore.Models.Login", b =>
+            modelBuilder.Entity("PublicForum.ApplicationCore.Models.Login", b =>
             {
                 b.Property<int>("Id")
                     .ValueGeneratedOnAdd()
