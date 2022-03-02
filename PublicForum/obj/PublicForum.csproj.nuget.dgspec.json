@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum\\PublicForum.csproj": {}
+    "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum\\PublicForum.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj": {
+    "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj",
+        "projectUniqueName": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj",
         "projectName": "PublicForum.ApplicationCore",
-        "projectPath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj",
+        "projectPath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.ApplicationCore\\obj\\",
+        "outputPath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj": {
+    "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj",
+        "projectUniqueName": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj",
         "projectName": "PublicForum.Infrastructure",
-        "projectPath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj",
+        "projectPath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.Infrastructure\\obj\\",
+        "outputPath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj": {
-                "projectPath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj"
+              "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj": {
+                "projectPath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.ApplicationCore\\PublicForum.ApplicationCore.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum\\PublicForum.csproj": {
+    "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum\\PublicForum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum\\PublicForum.csproj",
+        "projectUniqueName": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum\\PublicForum.csproj",
         "projectName": "PublicForum",
-        "projectPath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum\\PublicForum.csproj",
+        "projectPath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum\\PublicForum.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum\\obj\\",
+        "outputPath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -180,8 +180,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj"
+              "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj": {
+                "projectPath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj"
               }
             }
           }

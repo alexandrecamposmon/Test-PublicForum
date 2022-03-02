@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eHZyVLy3I+nEpG6xRddy0igffOT40UqdpQ0Hu8EDhAyfSrRSSp0Yb20hUnsvy1Yen4ZHX/kO6FD5CE+K9xL0OA==",
+  "dgSpecHash": "IFt0jTP9ZiKHulVnSCtiLKpBoWgvVj744CmoP9IqvTTWxhJGbVTPTa9Ud6kVeaD8dgBbEet9CdLq/n1rO1KIyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj",
+  "projectFilePath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum.Infrastructure\\PublicForum.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

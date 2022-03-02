@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CJ0y8MlJ497a1iPQShUrVswsU3G+N4GuS1LchIsyr6uggQmmx9h46vWmqidBuO+JrlUbKr+wXh0PATer2HiVOQ==",
+  "dgSpecHash": "Ixx4sg+hNthcdCrRmdgmUZYYHpQdSd2YgQdEl0hKL5WY0PQkuTlAUpAH4VW5fQnjQSlocP0WcMSSMUlxK1XYEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\Downloads\\PublicForum\\PublicForum\\PublicForum\\PublicForum.csproj",
+  "projectFilePath": "C:\\projetos\\GIT-PESSOAL\\Test-PublicForum\\PublicForum\\PublicForum.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.22\\microsoft.aspnetcore.mvc.razor.extensions.3.1.22.nupkg.sha512",
