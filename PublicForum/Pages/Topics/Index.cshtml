@@ -1,0 +1,58 @@
+﻿@page
+@model PublicForum.Pages.Topics.IndexModel
+@{
+}
+
+<div class="row pt-4">
+    <div class="col-6">
+        <h2 class="text-primary">Topics</h2>
+    </div>
+    <div class="col-6">
+        @if (User.Identity.IsAuthenticated)
+        {
+
+            <a asp-page="Create" class="btn btn-primary">
+                Create New Topic
+            </a>
+
+        }
+        else
+        {
+            <a class="nav-link text-dark" asp-page="/Account/Login">Log in to Create New Topic</a>
+        }
+    </div>
+</div>
+
+<br />
+<br />
+
+@if (Model != null && Model.Topics.Count() > 0)
+{
+    foreach (var topic in Model.Topics)
+    {
+        <div class="row pt-4">
+            <div class="card objCard">
+                <div class="card-body">
+                    <h5 class="card-title">@topic.Title</h5>
+                    <p class="card-text">
+                        @topic.Content
+                    </p>
+                    @*<a class="btn btn-primary" asp-route-id="@topic.Id" asp-controller="Topic" asp-action="Index">View full topic</a>*@
+                    @if (topic.CriationUser == User.Identity.Name)
+                    {
+                        <a class="btn btn-primary" asp-page="Edit" asp-route-id="@topic.Id">Edit</a>
+                    }
+                    @*<a class="btn btn-danger" asp-route-id="@topic.Id" asp-area="" asp-controller="Topic" asp-action="DeleteConfirmation">Delete</a>*@
+                </div>
+                <div class="card-footer">
+                    <label>
+                        @topic.CriationUser
+                    </label> -
+                    <label>
+                        @topic.CriationDate
+                    </label>
+                </div>
+            </div>
+        </div>
+    }
+}

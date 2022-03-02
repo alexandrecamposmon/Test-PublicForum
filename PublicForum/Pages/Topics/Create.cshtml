@@ -1,0 +1,31 @@
+﻿@page
+@model PublicForum.Pages.Topics.CreateModel
+@{
+}
+
+<div class="text-center">
+    <h1 class="display-4">Topic</h1>
+    <p>Here you can create your topic.</p>
+</div>
+<form method="post">
+    <div class="text-left">
+        <div class="row">
+            <div class="mb-3 col-md-6">
+                <label asp-for="Topic.Title"></label>
+                <input required class="form-control" asp-for="@Model.Topic.Title">
+            </div>
+            <div class="mb-3 col-md-12">
+                <label asp-for="Topic.Content"></label>
+                <textarea required class="form-control" rows="6" asp-for="@Model.Topic.Content"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+                <button type="submit" class="btn btn-primary">Save</button>
+            </div>
+            <div class="col-md-1">
+                <a class="btn btn-danger"  asp-page="/Index">Cancel</a>
+            </div>
+        </div>
+    </div>
+</form>
